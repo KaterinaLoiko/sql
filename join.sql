@@ -1,0 +1,1 @@
+select product_name, name from netology.orders join netology.customers on netology.orders.customer_id = netology.customers.id where lower(netology.customers.name)='alexey';
